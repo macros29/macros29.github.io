@@ -2,7 +2,7 @@ name: "my_web"
 output_dir: "."
 navbar:
   title: "MyWebsite"
-  lift:
+  left:
     - text: "Home"
       href: index.html
     - text: "About"
