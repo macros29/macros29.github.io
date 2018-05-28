@@ -1,4 +1,5 @@
 name: "my_web"
+output_dir: "."
 navbar:
   title: "MyWebsite"
   lift:
