@@ -1,7 +1,8 @@
 name: "my_web"
 output_dir: "."
 navbar:
-  title: "navbar"
+  title: "M29"
+  href: index.html
   left:
     - text: "Home"
       href: index.html
