@@ -1,0 +1,8 @@
+name: "my_web"
+navbar:
+  title: "MyWebsite"
+  lift:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
