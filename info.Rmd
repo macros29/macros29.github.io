@@ -16,7 +16,7 @@ In this page, you will find various useful resources related to single cell geno
 * List of mouse single cell RNA-seq datasets
 * List of single cell genomics datasets
 
-===
+---
 
 <style>
 .colored {

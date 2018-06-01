@@ -6,7 +6,7 @@ title: "My_web"
 Website under construction
 
 <center>
-
-![Beets, Bears, Battlestar Galactica](images/dwight.jpg)
-
+  
+  ![](images/dwight.jpg){width=2500px}
+  
 </center>
