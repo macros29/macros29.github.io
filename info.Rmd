@@ -2,7 +2,7 @@
 title: "info"
 author: "Zhen Li"
 date: "June 1, 2018"
-output: html_document
+
 ---
 
 #Human single cell datasets

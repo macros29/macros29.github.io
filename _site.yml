@@ -1,0 +1,11 @@
+name: "my_web"
+output_dir: "."
+navbar:
+  title: "M29"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Info"
+      href: info.html
+    - text: "About"
+      href: about.html
