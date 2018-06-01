@@ -1,0 +1,12 @@
+---
+title: "info"
+author: "Zhen Li"
+date: "June 1, 2018"
+output: html_document
+---
+
+#Human single cell datasets
+| Reference | Method | cDNA type | Num of cells | Source of cells | Seq Depth | Num of genes per cell | 
+|:---------:|:------:|:---------:|:------------:|:---------------:|:---------:|:------------:|
+|Darmanis   |C1      |Full-length|466|adult tem. lobe and fetal cortex|2.8M|~4000|
+|Lake|sn-Seq(C1)|6 Brodmann areas|8.3M|6159|
