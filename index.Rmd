@@ -3,4 +3,10 @@ title: "My_web"
 
 ---
 
-Hello, Weeb!
+Website under construction
+
+<center>
+
+![Beets, Bears, Battlestar Galactica](images/dwight.jpg)
+
+</center>
