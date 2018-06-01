@@ -6,8 +6,10 @@
 
 In this page, you will find useful information related to single cell genomics.
 
+---
+
 #Human single cell RNA-seq datasets
-|Reference|Method|cDNA type|Age|Num of cells|Source of cells| Seq Depth|Num of genes per cell|
+|Reference|Method|cDNA type|Age|# of cells|Source of cells| Seq Depth|# of genes per cell|
 |:-------:|:----:|:-------:|:-:|:----------:|:-------------:|:--------:|:--------:|
 |[Johnson](https://www.nature.com/articles/nn.3980)|FACS|Full-length(?)|16-17pcw|?|oRG|?|?|
 |[Darmanis](http://www.pnas.org/content/112/23/7285)|C1|Full-length|14-16pcw;21-63y|466|TC & FC|2.8M|~4000|
@@ -16,3 +18,5 @@ In this page, you will find useful information related to single cell genomics.
 |[Nowakowski](http://science.sciencemag.org/content/358/6368/1318)|C1|Full-length|6-37pcw|4261|Cortex|2.2M|2403|
 |[Zhong](https://www.nature.com/articles/nature25980)|Smartseq2|Full-length|6-24pcw|2394|PFC|?|2654|
 |[Lake]()|
+
+---
