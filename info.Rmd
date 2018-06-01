@@ -1,12 +1,15 @@
 ---
 title: "info"
-author: "Zhen Li"
-date: "June 1, 2018"
+# author: "Zhen Li"
+# date: "June 1, 2018"
 
 ---
 
 #Human single cell datasets
-| Reference | Method | cDNA type | Num of cells | Source of cells | Seq Depth | Num of genes per cell | 
-|:---------:|:------:|:---------:|:------------:|:---------------:|:---------:|:------------:|
-|Darmanis   |C1      |Full-length|466|adult tem. lobe and fetal cortex|2.8M|~4000|
-|Lake|sn-Seq(C1)|6 Brodmann areas|8.3M|6159|
+|Reference|Method|cDNA type|Age|Num of cells|Source of cells| Seq Depth|Num of genes per cell|
+|:-------:|:----:|:-------:|:-:|:----------:|:-------------:|:--------:|:--------:|
+|[Johnson](https://www.nature.com/articles/nn.3980)|FACS|Full-length(?)|16-17pcw|?|oRG|?|?|
+|[Darmanis](http://www.pnas.org/content/112/23/7285)|C1|Full-length|14-16pcw;21-63y|466|TC & FC|2.8M|~4000|
+|[Lake](http://science.sciencemag.org/content/352/6293/1586.long)|sn-Seq(C1)|Full-length|51y|3227|6 Brodmann areas|8.3M|6159|
+|[Pollen](https://doi.org/10.1016/j.cell.2015.09.004)|C1|Full-length|14-16pcw|393|VZ/SVZ|2.5M|3099|
+|[Zhong](https://www.nature.com/articles/nature25980)|Smartseq2|Full-length|6-24pcw|2394|PFC|?|2654|
