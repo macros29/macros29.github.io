@@ -25,7 +25,7 @@ In this page, you will find various useful resources related to single cell geno
 </style>
 
 #Human single cell RNA-seq datasets {#anchor1}
-|Reference|Method|cDNA type|Age|# of cells|Source of cells| Seq Depth|# of genes per cell|
+|Reference|Method|cDNA type|Age|# of cells|Source of cells|Seq Depth|# of genes per cell|
 |:-------:|:----:|:-------:|:-:|:----------:|:-------------:|:--------:|:--------:|
 |[Johnson](https://www.nature.com/articles/nn.3980)|FACS|Full-length(?)|16-17pcw|?|oRG|?|?|
 |[Darmanis](http://www.pnas.org/content/112/23/7285)|C1|Full-length|14-16pcw;21-63y|466|TC & FC|2.8M|~4000|
@@ -33,8 +33,11 @@ In this page, you will find various useful resources related to single cell geno
 |[Pollen](https://doi.org/10.1016/j.cell.2015.09.004)|C1|Full-length|14-16pcw|393|VZ/SVZ|2.5M|3099|
 |[Nowakowski](http://science.sciencemag.org/content/358/6368/1318)|C1|Full-length|6-37pcw|4261|Cortex|2.2M|2403|
 |[Zhong](https://www.nature.com/articles/nature25980)|Smartseq2|Full-length|6-24pcw|2394|PFC|?|2654|
-|[Lake]()|
+|[Lake](https://www.nature.com/articles/nbt.4038)|Drop-seq|3'|22-49y|27906|Visual, frontal and cerebellum|~10000|719|
+|[Fan](https://www.nature.com/articles/s41422-018-0053-3)|STRT|3'|22-23pcw|4213|20+2 regions|2M|4318|
 
 ---
 
 #Human organoid single cell RNA-seq datasets {#anchor2}
+|Reference|Method|cDNA type|Age|# of cells|Source of cells| Seq Depth|# of genes per cell|
+|:-------:|:----:|:-------:|:-:|:----------:|:-------------:|:--------:|:--------:|
