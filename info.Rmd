@@ -9,12 +9,12 @@ output:
 ---
 
 
-In this page, you will find various useful resources related to single cell genomics, including:
+<!-- In this page, you will find various useful resources related to single cell genomics, including: -->
 
-* [List of human neocortex single cell RNA-seq datasets](#anchor1)
-* [List of human organoid single cell RNA-seq datasets](#anchor2)
-* List of mouse single cell RNA-seq datasets
-* List of single cell genomics datasets
+<!-- * [List of human neocortex single cell RNA-seq datasets](#anchor1) -->
+<!-- * [List of human organoid single cell RNA-seq datasets](#anchor2) -->
+<!-- * List of mouse single cell RNA-seq datasets -->
+<!-- * List of single cell genomics datasets -->
 
 ---
 
@@ -28,16 +28,28 @@ In this page, you will find various useful resources related to single cell geno
 |Reference|Method|cDNA type|Age|# of cells|Source of cells|Seq Depth|# of genes per cell|
 |:-------:|:----:|:-------:|:-:|:----------:|:-------------:|:--------:|:--------:|
 |[Johnson](https://www.nature.com/articles/nn.3980)|FACS|Full-length(?)|16-17pcw|?|oRG|?|?|
-|[Darmanis](http://www.pnas.org/content/112/23/7285)|C1|Full-length|14-16pcw;21-63y|466|TC & FC|2.8M|~4000|
+|[Darmanis](http://www.pnas.org/content/112/23/7285)|C1|Full-length|14-16pcw;21-63y|466|TC & FC|2.8M|~4,000|
 |[Lake](http://science.sciencemag.org/content/352/6293/1586.long)|snSeq(C1)|Full-length|51y|3227|6 Brodmann areas|8.3M|6159|
-|[Pollen](https://doi.org/10.1016/j.cell.2015.09.004)|C1|Full-length|14-16pcw|393|VZ/SVZ|2.5M|3099|
-|[Nowakowski](http://science.sciencemag.org/content/358/6368/1318)|C1|Full-length|6-37pcw|4261|Cortex|2.2M|2403|
+|[Pollen](https://doi.org/10.1016/j.cell.2015.09.004)|C1|Full-length|14-16pcw|393|VZ/SVZ|2.5M|3,099|
+|[Nowakowski](http://science.sciencemag.org/content/358/6368/1318)|C1|Full-length|6-37pcw|4,261|Cortex|2.2M|2,403|
 |[Zhong](https://www.nature.com/articles/nature25980)|Smartseq2|Full-length|6-24pcw|2394|PFC|?|2654|
 |[Lake](https://www.nature.com/articles/nbt.4038)|Drop-seq|3'|22-49y|27906|Visual, frontal and cerebellum|~10000|719|
-|[Fan](https://www.nature.com/articles/s41422-018-0053-3)|STRT|3'|22-23pcw|4213|20+2 regions|2M|4318|
+|[Fan](https://www.nature.com/articles/s41422-018-0053-3)|STRT|3'|22-23pcw|4,213|20+2 regions|2M|4,318|
 
 ---
 
-#Human organoid single cell RNA-seq datasets {#anchor2}
-|Reference|Method|cDNA type|Age|# of cells|Source of cells| Seq Depth|# of genes per cell|
-|:-------:|:----:|:-------:|:-:|:----------:|:-------------:|:--------:|:--------:|
+#Mouse single cell RNA-seq datasets {#anchor2}
+|Reference|Method|cDNA type|Age|# of cells|Source of cells|Seq Depth|# of genes per cell|
+|:-------:|:----:|:-------:|:-:|:--------:|:-------------:|:-------:|:-----------------:|
+|[Saraiva](https://www.nature.com/articles/srep18178)|C1|Full-length|P25|30|Olfactory sensory neurons|4.4M|4717|
+|[Tasic](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4985242/)|SMARTer|Full-length|8wks|1679|V1C|8.7M|7278|
+|[Zeisel](http://science.sciencemag.org/content/347/6226/1138)|C1|5'|3,005|S1C & HIP|0.5M|4500|
+|[Macosko](https://www.sciencedirect.com/science/article/pii/S0092867415005498)|Drop-seq|3'|P14|44,808|Retina|?|?|
+
+#Human organoid single cell RNA-seq datasets {#anchor3}
+|Reference|Method|cDNA type|Age|# of cells|Seq Depth|# of genes per cell|
+|:-------:|:----:|:-------:|:-:|:--------:|:-------:|:-----------------:|
+|[Quadrato](https://www.nature.com/articles/nature22047)|Drop-seq|3'|3 and 6mons|82291|?|?|
+
+
+
