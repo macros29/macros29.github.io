@@ -42,9 +42,14 @@ output:
 |Reference|Method|cDNA type|Age|# of cells|Source of cells|Seq Depth|# of genes per cell|
 |:-------:|:----:|:-------:|:-:|:--------:|:-------------:|:-------:|:-----------------:|
 |[Saraiva](https://www.nature.com/articles/srep18178)|C1|Full-length|P25|30|Olfactory sensory neurons|4.4M|4717|
-|[Tasic](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4985242/)|SMARTer|Full-length|8wks|1679|V1C|8.7M|7278|
-|[Zeisel](http://science.sciencemag.org/content/347/6226/1138)|C1|5'|3,005|S1C & HIP|0.5M|4500|
+|[Tasic](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4985242/)|SMARTer|Full-length|8wks|1,679|V1C|8.7M|7278|
+|[Zeisel](http://science.sciencemag.org/content/347/6226/1138)|C1|5'|3-5wks|3,005|S1C & HIP|0.5M|4,500|
 |[Macosko](https://www.sciencedirect.com/science/article/pii/S0092867415005498)|Drop-seq|3'|P14|44,808|Retina|?|?|
+|[Rosenberg](http://science.sciencemag.org/content/360/6385/176)|SPLiT-seq|3'(?)|P2 & P11|156,049|4,497|
+|[Dong](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1416-2)|STRT|3'(?)|E9.5-11.5|1,916|Multiple organs|0.43M UMI/cell|6,361|
+|[han](https://www.sciencedirect.com/science/article/pii/S0092867418301168)|Microwell-seq|3'|E14.5|>400,000|Multiple organs|?|6,500|
+
+---
 
 #Human organoid single cell RNA-seq datasets {#anchor3}
 |Reference|Method|cDNA type|Age|# of cells|Seq Depth|# of genes per cell|
