@@ -1,12 +1,11 @@
 ---
-title: "My_web"
-
+title: "Home"
 ---
 
 Website under construction
 
-<center>
+<left>
   
-  ![](images/dwight.jpg){width=2500px}
+  ![](images/DSC_1415.JPG){width=500px}
   
-</center>
+</left>

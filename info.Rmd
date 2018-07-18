@@ -8,6 +8,13 @@ output:
     toc_float: true
 ---
 
+```{r setup, echo=F}
+knitr::opts_chunk$set(cache = TRUE)
+setwd("~/Scripts/my_web/")
+library(DT)
+library(openxlsx)
+```
+
 
 <!-- In this page, you will find various useful resources related to single cell genomics, including: -->
 
@@ -23,6 +30,11 @@ output:
   background-color: #DDDDDD;
 }
 </style>
+
+```{r, echo=F}
+dt <- read.xlsx("./human_single_cell_RNA-seq_datasets.xlsx",sheet = 1,rowNames = F)
+datatable(dt, escape = F, options  = list(autoWidth = T),)
+```
 
 #Human single cell RNA-seq datasets {#anchor1}
 |Reference|Method|cDNA type|Age|# of cells|Source of cells|Seq Depth|# of genes per cell|
