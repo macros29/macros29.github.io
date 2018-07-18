@@ -1,7 +1,7 @@
 name: "my_web"
 output_dir: "."
 navbar:
-  title: "M29"
+  title: "Single Cell Genomics"
   right:
     - text: "Home"
       href: index.html
@@ -9,6 +9,7 @@ navbar:
       href: info.html
     - text: "About"
       href: about.html
+exclude: ["index.Rmd"]
 output:
   html_document:
     theme: readable
