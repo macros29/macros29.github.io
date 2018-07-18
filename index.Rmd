@@ -6,6 +6,6 @@ Website under construction
 
 <left>
   
-  ![](images/DSC_1415.JPG){width=500px}
+  ![](images/dwight.jpg){width=500px}
   
 </left>
