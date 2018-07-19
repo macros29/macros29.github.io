@@ -5,6 +5,7 @@
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  margin: 20px;
 }
 
 .img-circle img {
@@ -38,13 +39,14 @@
   text-align: center;
 }
 
+/*
 .img-circle:hover .image {
   opacity: 0.3;
 }
 
 .img-circle:hover .middle {
   opacity: 1;
-}
+}*/
 
 .text {
   color: black;
@@ -58,12 +60,22 @@ section {
     display: flex;
 }
 
+/* Style the content */
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
 /* Style the footer */
 footer {
     background-color: DodgerBlue;
     padding: 10px;
     text-align: center;
     color: white;
+    padding-left: 10px;
 }
 
 /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */

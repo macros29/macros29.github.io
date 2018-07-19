@@ -1,7 +1,7 @@
 name: "my_web"
 output_dir: "."
 navbar:
-  title: "Single Cell Genomics"
+  title: "Zhen Li"
   right:
     - text: "Home"
       href: index1.html
