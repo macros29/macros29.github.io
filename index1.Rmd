@@ -1,0 +1,9 @@
+---
+title: "Home"
+---
+
+Website under construction
+
+<div class="img-circle">
+  <img src="images/DSC_1415.JPG" class="image" />
+</div>

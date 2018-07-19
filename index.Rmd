@@ -4,8 +4,4 @@ title: "Home"
 
 Website under construction
 
-<left>
-  
-  ![](images/dwight.jpg){width=500px}
-  
-</left>
+![](images/dwight.jpg)

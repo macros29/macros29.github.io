@@ -13,3 +13,6 @@ exclude: ["index.Rmd", "index.html"]
 output:
   html_document:
     theme: readable
+    include:
+      after_body: footer.html
+    css: styles.css
