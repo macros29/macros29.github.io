@@ -50,9 +50,12 @@ datatable(dt, escape = F, options  = list(autoWidth = T))
 ---
 
 #Human organoid single cell RNA-seq datasets {#anchor3}
-|Reference|Method|cDNA type|Age|# of cells|Seq Depth|# of genes per cell|
-|:-------:|:----:|:-------:|:-:|:--------:|:-------:|:-----------------:|
-|[Quadrato](https://www.nature.com/articles/nature22047)|Drop-seq|3'|3 and 6mons|82291|?|?|
+```{r, echo=F}
+dt <- read.xlsx("./single_cell_RNA-seq_datasets.xlsx",sheet = 3,rowNames = F)
+datatable(dt, escape = F, options  = list(autoWidth = T))
+```
 
+---
 
+#Other resources {#anchor4}
 
