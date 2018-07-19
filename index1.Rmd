@@ -26,6 +26,10 @@
 
 <p>Gu Z., Kalamboglas J., Yoshioka S., Han W., <b>Li Z.</b>, Imamura Kawasawa Y., Pochareddy S., Li Z., Liu F., Xu X., Wijeratne S., Ueno M., Blatz E., Salomone J., Kumanogoh A., Rasin M.R., Gebelein B., Weirauch M.T., Sestan N., Martin J.H., and Yoshida Y (2017). <i>Control of species-dependent cortico-motoneuronal connections underlying manual dexterity.</i> <b>Science</b> 357(6349). 400-404.</p>
 
+<div>
+<input type="checkbox" class="read-more-state" id="post-1" />
+<div class="read-more-wrap">
+<span class="read-more-target">
 <p>Yang J., Tanaka Y., Seay M., <b>Li Z.</b>, Jin J., Garmire L.X. et al. (2016). <i>Single cell transcriptomics reveals unanticipated features of early hematopoietic precursors.</i> <b>Nuc. Aci. Res.</b>, 45(3). 1281  1296.</p>
 
 <p>Onorati M., <b>Li Z.*</b>, Liu F., Sousa, A.M.M., Nakagawa N., Li M., Dell’Anno M. T., Goulden F. O., Pochareddy S., Tebbenkamp A. T. N., Han W., Pletikos M. et al. (2016) <i>Zika virus disrupts phospho-tbk1 localization and mitosis in human neuroepithelial stem cells and radial glia.</i> <b>Cell Reports</b>, 16. 2576  2592.</p>
@@ -33,6 +37,11 @@
 <p>Akbarian S, Liu C, Knowles JA, Vaccarino FM, Farnham PJ, Crawford GE, et al. (2015). <i>The PsychENCODE project.</i> <b>Nat. Neurosci.</b> 18. 170712.</p>
 
 <p>Hasan S., Liu L., Triplet J, <b>Li Z.</b> and Mansur D. (2013). <i>The role of postoperative radiation and chemoradiation in Merkel cell carcinoma: a systematic review of the literature.</i> <b>Front. Oncol.</b> 3.</p>
+</span>
+</div>
+
+<label for="post-1" class="read-more-trigger"></label>
+</div>
 </article>
 </section>
 
