@@ -1,50 +1,11 @@
-.text{
-  display: none;
+div {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
 }
 
 p {
   font-family: Arial, Helvetica, sans-serif;
   color: black;
-}
-
-.img-circle {
-  display: inline-block;
-  position: relative;
-  overflow: hidden;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  margin: 20px;
-  -webkit-animation-name: img-circle;  /* Safari 4.0 - 8.0 */
-  -moz-animation-name: img-circle;
-  -webkit-animation-duration: 2s;  /* Safari 4.0 - 8.0 */
-  -moz-animation-duration: 2s;
-  animation-name: img-circle;
-  animation-duration: 2s;    
-}
-
-@-webkit-keyframes img-circle {
-    from {left: -200px; opacity: 0;}
-    to {left: 0; opacity: 1;}
-}
-
-@keyframes img-circle {
-    from {left: -200px; opacity: 0;}
-    to {left: 0; opacity: 1;}
-}
-
-.img-circle img {
-  height: auto; 
-  width: auto; 
-  max-width: 400px; 
-  min-height: 200px;
-  margin-left: -85px;
-}
-
-.text {
-  color: black;
-  font-size: 16px;
-  padding: 0 0;
 }
 
 /* Container for flexboxes */
@@ -108,4 +69,48 @@ button {
 button:hover {
     background-color: #555555;
     color: white;
+}
+
+.text{
+  display: none;
+}
+
+.img-circle {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px;
+  -webkit-animation-name: img-circle;  /* Safari 4.0 - 8.0 */
+  -moz-animation-name: img-circle;
+  -webkit-animation-duration: 2s;  /* Safari 4.0 - 8.0 */
+  -moz-animation-duration: 2s;
+  animation-name: img-circle;
+  animation-duration: 2s;    
+}
+
+@-webkit-keyframes img-circle {
+    from {left: -200px; opacity: 0;}
+    to {left: 0; opacity: 1;}
+}
+
+@keyframes img-circle {
+    from {left: -200px; opacity: 0;}
+    to {left: 0; opacity: 1;}
+}
+
+.img-circle img {
+  height: auto; 
+  width: auto; 
+  max-width: 400px; 
+  min-height: 200px;
+  margin-left: -85px;
+}
+
+.text {
+  color: black;
+  font-size: 16px;
+  padding: 0 0;
 }

@@ -6,6 +6,7 @@ output:
   html_document:
     toc: true
     toc_float: true
+    css: style.css
 ---
 
 ```{r setup, echo=F}
@@ -25,37 +26,35 @@ library(openxlsx)
 
 ---
 
-<style>
-.colored {
-  background-color: #DDDDDD;
-}
-</style>
+#Single cell RNA-seq Datasets {.tabset}
 
-#Human single cell RNA-seq datasets {#anchor1}
+##Human 
+<div style="padding: 20px">
 
 ```{r, echo=F}
-dt <- read.xlsx("./single_cell_RNA-seq_datasets.xlsx",sheet = 1,rowNames = F)
+dt <- read.xlsx("./single_cell_RNA-seq.xlsx",sheet = 1,rowNames = F)
 datatable(dt, escape = F, options  = list(autoWidth = T))
 ```
+</div>
+
+##Mouse 
+<div style="padding: 20px">
+
+```{r, echo=F}
+dt <- read.xlsx("./single_cell_RNA-seq.xlsx",sheet = 2,rowNames = F)
+datatable(dt, escape = F, options  = list(autoWidth = T))
+```
+</div>
+
+##Human organoid 
+<div style="padding: 20px">
+```{r, echo=F}
+dt <- read.xlsx("./single_cell_RNA-seq.xlsx",sheet = 3,rowNames = F)
+datatable(dt, escape = F, options  = list(autoWidth = T))
+```
+</div>
 
 ---
 
-#Mouse single cell RNA-seq datasets {#anchor2}
-
-```{r, echo=F}
-dt <- read.xlsx("./single_cell_RNA-seq_datasets.xlsx",sheet = 2,rowNames = F)
-datatable(dt, escape = F, options  = list(autoWidth = T))
-```
-
----
-
-#Human organoid single cell RNA-seq datasets {#anchor3}
-```{r, echo=F}
-dt <- read.xlsx("./single_cell_RNA-seq_datasets.xlsx",sheet = 3,rowNames = F)
-datatable(dt, escape = F, options  = list(autoWidth = T))
-```
-
----
-
-#Other resources {#anchor4}
+#Other resources {#anchor5}
 

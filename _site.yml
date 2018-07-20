@@ -1,3 +1,4 @@
+#TODO: Add other resources
 name: "my_web"
 output_dir: "."
 navbar:
@@ -5,11 +6,8 @@ navbar:
   right:
     - text: "Home"
       href: index1.html
-    - text: "Resources"
+    - text: "Neuroscience"
       href: info.html
-    - text: "About"
-      href: about.html
-exclude: ["index.Rmd", "index.html"]
 output:
   html_document:
     theme: readable
