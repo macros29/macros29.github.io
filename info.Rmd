@@ -56,5 +56,22 @@ datatable(dt, escape = F, options  = list(autoWidth = T))
 
 ---
 
-#Other resources {#anchor5}
+#Other resources
 
+<footer>
+<a href="https://www.instagram.com/_mcros_/">
+<span style="font-size: 36px; color: white;">
+  <i class="fab fa-instagram"></i>
+</span>
+</a>
+<a href="https://github.com/macros29/">
+<span style="font-size: 36px; color: white;">
+  <i class="fab fa-github-square"></i>
+</span>
+</a>
+<a href="https://www.linkedin.com/in/zhen-li-45a9a251/">
+<span style="font-size: 36px; color: white;">
+  <i class="fab fa-linkedin"></i>
+</span>
+</a>
+</footer>

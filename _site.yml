@@ -6,6 +6,7 @@ navbar:
   right:
     - text: "Home"
       href: index1.html
+      icon: fa-home
     - text: "Neuroscience"
       href: info.html
 output:
