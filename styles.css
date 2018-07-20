@@ -19,11 +19,8 @@ p {
   -moz-animation-name: img-circle;
   -webkit-animation-duration: 2s;  /* Safari 4.0 - 8.0 */
   -moz-animation-duration: 2s;
-  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
-  -moz-animation-fill-mode: forwards;
   animation-name: img-circle;
   animation-duration: 2s;    
-  animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes img-circle {
@@ -61,17 +58,15 @@ article {
     -webkit-flex: 3;
     -ms-flex: 3;
     flex: 3;
+    position: relative;
     background-color: #f1f1f1;
     padding: 10px;
-    -webkit-animation-name: article;  /* Safari 4.0 - 8.0 */
-    -moz-animation-name: article;
+    -webkit-animation-name: example;  /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 2s;  /* Safari 4.0 - 8.0 */
+    -moz-animation-name: article;
     -moz-animation-duration: 2s;
-    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
-    -moz-animation-fill-mode: forwards;
     animation-name: article;
     animation-duration: 2s;    
-    animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes article {
@@ -102,7 +97,7 @@ footer {
 }
 
 button {
-  font-size: 20px;
+  font-size: 10px;
   border: none;
   border-radius: 2px;
   background-color: DodgerBlue;
