@@ -3,6 +3,24 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+<script>
+$(document).ready(function() {
+  $("#toggle").click(function() {
+    var elem = $("#toggle").text();
+    if (elem == "Read More") {
+      //Stuff to do when btn is in the read more state
+      $("#toggle").text("Read Less");
+      $(".text").slideDown();
+    } else {
+      //Stuff to do when btn is in the read less state
+      $("#toggle").text("Read More");
+      $(".text").slideUp();
+    }
+  });
+});
+</script>
+
 </head>
 
 <section>
@@ -27,9 +45,7 @@
 <p>Gu Z., Kalamboglas J., Yoshioka S., Han W., <b>Li Z.</b>, Imamura Kawasawa Y., Pochareddy S., Li Z., Liu F., Xu X., Wijeratne S., Ueno M., Blatz E., Salomone J., Kumanogoh A., Rasin M.R., Gebelein B., Weirauch M.T., Sestan N., Martin J.H., and Yoshida Y (2017). <i>Control of species-dependent cortico-motoneuronal connections underlying manual dexterity.</i> <b>Science</b> 357(6349). 400-404.</p>
 
 <div>
-<input type="checkbox" class="read-more-state" id="post-1" />
-<div class="read-more-wrap">
-<span class="read-more-target">
+<span class="text">
 <p>Yang J., Tanaka Y., Seay M., <b>Li Z.</b>, Jin J., Garmire L.X. et al. (2016). <i>Single cell transcriptomics reveals unanticipated features of early hematopoietic precursors.</i> <b>Nuc. Aci. Res.</b>, 45(3). 1281  1296.</p>
 
 <p>Onorati M., <b>Li Z.*</b>, Liu F., Sousa, A.M.M., Nakagawa N., Li M., Dell’Anno M. T., Goulden F. O., Pochareddy S., Tebbenkamp A. T. N., Han W., Pletikos M. et al. (2016) <i>Zika virus disrupts phospho-tbk1 localization and mitosis in human neuroepithelial stem cells and radial glia.</i> <b>Cell Reports</b>, 16. 2576  2592.</p>
@@ -40,7 +56,7 @@
 </span>
 </div>
 
-<label for="post-1" class="read-more-trigger"></label>
+<button id="toggle">Read More</button>
 </div>
 </article>
 </section>
