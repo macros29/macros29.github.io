@@ -58,6 +58,10 @@ datatable(dt, escape = F, options  = list(autoWidth = T))
 
 #Other resources
 
+<div><a href="http://www.brainspan.org/">BrainSpan</a></div>
+<div><a href="http://hbatlas.org/mouseNCXtranscriptome/">Mouse Neocortical Transcriptome</a></div>
+<div><a href="http://psychencode.org/">PsychENCODE</a></div>
+
 <footer>
 <a href="https://www.instagram.com/_mcros_/">
 <span style="font-size: 36px; color: white;">
