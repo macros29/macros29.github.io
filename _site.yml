@@ -5,7 +5,7 @@ navbar:
   title: "Zhen Li"
   right:
     - text: "Home"
-      href: index1.html
+      href: index.html
       icon: fa-home
     - text: "Neuroscience"
       href: info.html
