@@ -119,14 +119,23 @@ button:hover {
   padding: 0 0;
 }
 
-.left {
+/* Create two unequal columns that floats next to each other */
+.column {
     float: left;
-    width: 33%;
+    padding: 10px;
 }
+
+.left {
+  width: 25%;
+}
+
 .right {
-    float: right;
-    width: 33%;
+  width: 75%;
 }
-.centered {
-    overflow: hidden; /* claim the left over width between these 25% floats */
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }

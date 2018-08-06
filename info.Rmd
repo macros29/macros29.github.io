@@ -56,11 +56,23 @@ datatable(dt, escape = F, options  = list(autoWidth = T))
 
 ---
 
-#Other resources
+#Other resources that I personally use a lot
 
-<div><a href="http://www.brainspan.org/">BrainSpan</a></div>
+<div>
+<div class="column left" style="background-color:#aaa;"> 
+<a href="http://www.brainspan.org/">BrainSpan</a>
+</div>
+
+<div class="column right" style="background-color:#bbb;">
+<p>A large transcriptome database of the developing human brain.<p>
+</div>
+
+</div>
+
 <div><a href="http://hbatlas.org/mouseNCXtranscriptome/">Mouse Neocortical Transcriptome</a></div>
 <div><a href="http://psychencode.org/">PsychENCODE</a></div>
+<div><a href="https://david.ncifcrf.gov/home.jsp/">DAVID Gene Ontology</a></div>
+
 
 <footer>
 <a href="https://www.instagram.com/_mcros_/">
