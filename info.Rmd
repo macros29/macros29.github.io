@@ -1,12 +1,11 @@
 ---
-# title: "info"
-# author: "Zhen Li"
-# date: "June 1, 2018"
 output:
+  pdf_document:
+    toc: yes
   html_document:
-    toc: true
-    toc_float: true
     css: style.css
+    toc: yes
+    toc_float: yes
 ---
 
 ```{r setup, echo=F}
@@ -59,14 +58,13 @@ datatable(dt, escape = F, options  = list(autoWidth = T))
 #Other resources that I personally use a lot
 
 <div>
-<div class="column left" style="background-color:#aaa;"> 
-<a href="http://www.brainspan.org/">BrainSpan</a>
-</div>
+  <div class="left" style="background-color:#aaa;"> 
+  <a href="http://www.brainspan.org/">BrainSpan</a>
+  </div>
 
-<div class="column right" style="background-color:#bbb;">
-<p>A large transcriptome database of the developing human brain.<p>
-</div>
-
+  <div class="right" style="background-color:#bbb;">
+  A large transcriptome database of the developing human brain.
+  </div>
 </div>
 
 <div><a href="http://hbatlas.org/mouseNCXtranscriptome/">Mouse Neocortical Transcriptome</a></div>
