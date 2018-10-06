@@ -1,7 +1,5 @@
 ---
 output:
-  pdf_document:
-    toc: yes
   html_document:
     css: style.css
     toc: yes
@@ -57,8 +55,8 @@ datatable(dt, escape = F, options  = list(autoWidth = T))
 
 #Other resources that I personally use a lot
 
-<div>
-  <div class="left" style="background-color:#aaa;"> 
+<div class="wrap">
+  <div class="left"> 
     <a href="http://www.brainspan.org/">BrainSpan</a>
   </div>
   <div class="right">

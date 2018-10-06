@@ -132,6 +132,11 @@ button:hover {
     clear: both;
 }
 
+.wrap {
+   width:600px;
+   margin:0 auto;
+}
+
 .left {
   display: inline-block;
   width: 25%;
