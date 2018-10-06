@@ -55,13 +55,13 @@ datatable(dt, escape = F, options  = list(autoWidth = T))
 
 #Other resources that I personally use a lot
 
-<div>
-  <div> 
-    <a href="http://www.brainspan.org/">BrainSpan</a>
-  </div>
-  <div>
-    <p>A large transcriptome database of the developing human brain.</p>
-  </div>
+<div class="wrap">
+<div class="left"> 
+<a href="http://www.brainspan.org/">BrainSpan</a>
+</div>
+<div class="right">
+<p>A large transcriptome database of the developing human brain.</p>
+</div>
 </div>
 
 <div><a href="http://hbatlas.org/mouseNCXtranscriptome/">Mouse Neocortical Transcriptome</a></div>
