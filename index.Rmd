@@ -55,7 +55,7 @@ $(document).ready(function() {
 </span>
 </div>
 
-<button id="toggle">Show More</button>
+<button id="toggle" style="float: right;">Show More</button>
 </div>
 </article>
 </section>

@@ -132,6 +132,14 @@ button:hover {
     clear: both;
 }
 
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
 .paper {
   border-style: dashed;
   padding: 1px;
