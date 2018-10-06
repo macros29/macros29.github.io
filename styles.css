@@ -138,12 +138,12 @@ button:hover {
 }
 
 .left {
-  display: inline-block;
+  float: left;
   width: 25%;
 }
 
 .right {
-  display: inline-block;
+  float: left;
   width: 75%;
 }
 
