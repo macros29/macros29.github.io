@@ -7,7 +7,7 @@ navbar:
     - text: "Home"
       href: index.html
       icon: fa-home
-    - text: "Neuroscience"
+    - text: "Information"
       href: info.html
 output:
   html_document:
