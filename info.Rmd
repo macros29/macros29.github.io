@@ -57,11 +57,11 @@ datatable(dt, escape = F, options  = list(autoWidth = T))
 
 #Other resources that I personally use a lot
 
-<div class="row">
-  <div class="column left" style="background-color:#aaa;"> 
+<div>
+  <div class="left" style="background-color:#aaa;"> 
     <a href="http://www.brainspan.org/">BrainSpan</a>
   </div>
-  <div class="column right">
+  <div class="right">
     <p>A large transcriptome database of the developing human brain.</p>
   </div>
 </div>
