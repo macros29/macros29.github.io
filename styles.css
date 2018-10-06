@@ -125,16 +125,6 @@ button:hover {
     padding: 10px;
 }
 
-.left {
-  display: inline-block;   
-  width: 50%;
-}
-
-.right {
-  display: inline-block;   
-  width: 50%;
-}
-
 /* Clear floats after the columns */
 .row:after {
     content: "";
