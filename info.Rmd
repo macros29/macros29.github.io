@@ -69,4 +69,4 @@ datatable(dt, escape = F, options  = list(autoWidth = T))
 
 <div><a href="http://hbatlas.org/mouseNCXtranscriptome/">Mouse Neocortical Transcriptome</a></div>
 <div><a href="http://psychencode.org/">PsychENCODE</a></div>
-<div><a href="https://david.ncifcrf.gov/home.jsp/">DAVID Gene Ontology</a></div>
+<div><a href="https://david.ncifcrf.gov/">DAVID Gene Ontology</a></div>

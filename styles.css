@@ -141,3 +141,18 @@ button:hover {
     display: table;
     clear: both;
 }
+
+.paper {
+  border-style: dashed;
+  padding: 1px;
+  font-size: 12px;
+  background-color: transparent;
+  border-width: 1px;
+  color: white;
+}
+
+.paper:hover {
+    background-color: white; /* Green */
+    opacity: 50%;
+    color: DodgerBlue;
+}
