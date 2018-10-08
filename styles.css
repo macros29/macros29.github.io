@@ -6,10 +6,20 @@ div {
 i {
   position: relative;
 }
-p {
+
+.disclaimer {
+  width: 100%;
   font-family: Arial, Helvetica, sans-serif;
-  color: black;
+  color: white;
 }
+
+.disclaimer p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)}
 
 /* Container for flexboxes */
 section {
