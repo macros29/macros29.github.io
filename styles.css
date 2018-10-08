@@ -132,17 +132,13 @@ button:hover {
     clear: both;
 }
 
-.wrap {
-   float: left;
-   height: 300px;
-   padding: 10px;
-}
-
 .left {
+  float: left;
   width: 25%;
 }
 
 .right {
+  float: right;
   width: 75%;
 }
 

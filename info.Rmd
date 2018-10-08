@@ -1,11 +1,3 @@
----
-output:
-  html_document:
-    css: style.css
-    toc: yes
-    toc_float: yes
----
-
 ```{r setup, echo=F}
 knitr::opts_chunk$set(cache = TRUE)
 setwd("~/zhen/scripts/zhenli.name/")
@@ -54,16 +46,35 @@ datatable(dt, escape = F, options  = list(autoWidth = T))
 ---
 
 #Other resources that I personally use a lot
-
-<div class="wrap">
-<div class="left"> 
+<div class="row">
+<div class="column left"> 
 <a href="http://www.brainspan.org/">BrainSpan</a>
 </div>
-<div class="right">
+<div class="column right">
 <p>A large transcriptome database of the developing human brain.</p>
 </div>
 </div>
-
-<div><a href="http://hbatlas.org/mouseNCXtranscriptome/">Mouse Neocortical Transcriptome</a></div>
-<div><a href="http://psychencode.org/">PsychENCODE</a></div>
-<div><a href="https://david.ncifcrf.gov/">DAVID Gene Ontology</a></div>
+<div class="row">
+<div class="column left">
+<a href="http://hbatlas.org/mouseNCXtranscriptome/">Mouse Neocortical Transcriptome</a>
+</div>
+<div class="column right">
+Atlas of gene expressions in mouse brain, including coding and some noncoding genes. It shows rough layer information.
+</div>
+</div>
+<div class="row">
+<div class="column left">
+<a href="http://psychencode.org/">PsychENCODE</a>
+</div>
+<div class="column right">
+Collection of data from the PsychENCODE consortium. This large dataset include RNA-seq, CHIP-seq, genomic sequencing and proteomics data of the developing human brain and numerous brain regions.
+</div>
+</div>
+<div class="row">
+<div class="column left">
+<a href="https://david.ncifcrf.gov/">DAVID Gene Ontology</a>
+</div>
+<div class="column right">
+Classic gene ontology analysis website.
+</div>
+</div>
