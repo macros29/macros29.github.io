@@ -56,7 +56,7 @@ datatable(dt, escape = F, options  = list(autoWidth = T))
 
 ---
 
-#Other resources that I personally use a lot
+#Other resources
 <div class="row">
 <div class="column left"> 
 <a href="http://www.brainspan.org/">BrainSpan</a>
