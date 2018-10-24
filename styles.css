@@ -6,10 +6,22 @@ div {
 i {
   position: relative;
 }
-p {
+
+.disclaimer {
+  width: 100%;
   font-family: Arial, Helvetica, sans-serif;
-  color: black;
+  color: white;
+  margin-bottom: 0;
 }
+
+.disclaimer p {
+    flex-shrink: 1;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)}
 
 /* Container for flexboxes */
 section {
@@ -45,12 +57,13 @@ article {
 
 /* Style the footer */
 footer {
-    position: relative;
+    position: absolute;
+    left:0;
+    right:0;
     background-color: DodgerBlue;
     padding: 10px;
     text-align: center;
     color: white;
-    padding-left: 10px;
 }
 
 /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
@@ -132,17 +145,13 @@ button:hover {
     clear: both;
 }
 
-.wrap {
-   float: left;
-   height: 300px;
-   padding: 10px;
-}
-
 .left {
+  float: left;
   width: 25%;
 }
 
 .right {
+  float: right;
   width: 75%;
 }
 
