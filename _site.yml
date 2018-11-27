@@ -10,6 +10,9 @@ navbar:
     - text: "Resources"
       href: info.html
       icon: fa-info
+    - text: "Blog"
+      href: blog.html
+      icon: fa-blogger
 output:
   html_document:
     theme: readable
